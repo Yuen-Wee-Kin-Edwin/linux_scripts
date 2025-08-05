@@ -22,6 +22,10 @@ sudo apt upgrade -y
 # echo "⬆️  Performing full distribution upgrade..."
 # sudo apt dist-upgrade -y
 
+# Optional: Upgrade to new release (comment out if not required)
+# echo "⬆️  Upgrading to new release (Ubuntu)"
+# sudo do-release-upgrade
+
 # Optional: Remove unused packages
 echo "🧹 Removing unnecessary packages..."
 sudo apt autoremove -y
