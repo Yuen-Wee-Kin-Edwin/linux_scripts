@@ -120,3 +120,7 @@ else
 fi
 
 echo "Zsh shell setup complete. Restart your terminal or log out and back in to apply changes."
+
+# Start Zsh immediately.
+echo "Starting Zsh shell with Starship..."
+exec zsh
