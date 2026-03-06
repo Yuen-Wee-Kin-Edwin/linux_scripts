@@ -38,5 +38,6 @@ run_bash "30_starship.sh"
 # Shell-level tooling
 run_zsh "40_snap.zsh"
 run_zsh "50_rust.zsh"
+run_zsh "60_docker.zsh"
 
 echo "Setup complete."
